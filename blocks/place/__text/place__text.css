@@ -1,0 +1,14 @@
+.place__text {
+    display: flex;
+    row-gap: 25px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .place__text {
+      padding: 0 16px 0;
+    }
+  }

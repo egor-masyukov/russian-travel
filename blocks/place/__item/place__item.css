@@ -1,0 +1,17 @@
+.place__item {
+    display: grid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: minmax(min-content, 48.7%) minmax(min-content, 51.3%);
+    gap: 48px 3.6%;
+    max-width: 984px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .place__item {
+      grid-template-columns: minmax(min-content, max-content);
+      gap: 32px;
+    }
+  }
