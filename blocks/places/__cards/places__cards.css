@@ -1,0 +1,19 @@
+.places__cards {
+    display: flex;
+    margin: 0 auto 0;
+    padding: 0;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  @media screen and (max-width: 860px) {
+    .places__cards {
+      gap: 72px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .places__cards {
+      gap: 50px;
+    }
+  }
